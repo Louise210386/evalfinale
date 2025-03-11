@@ -1,0 +1,16 @@
+body{
+background-color: darksalmon;}
+
+h1{
+color: white;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 20px;
+text-align:center;}
+
+p{
+color: blue;
+font-family: Georgia, 'Times New Roman', Times, serif;} 
+
+img{ border: white 2px solid;
+width: 400px;}
+
