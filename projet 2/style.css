@@ -1,26 +1,66 @@
-body{background-color: black;}
+body{background-color: black;
+}
 
 h1{ font-family: 'Times New Roman', Times, serif;
     font-size: 36px;
     color: chocolate;
-    text-align: center;}
+    text-align: center;
+    position: relative;
+}
 
 p{  font-family: Arial, Helvetica, sans-serif;
     font-size: 12px ;
     color: bisque;
     margin-top: 50px;
-    text-align: center;}
-
-.photos{display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 10%;
-        max-width: 100%;
-        margin: auto;
-        padding: 20px;
+    text-align: center;
+    position: relative;
 }
 
-.voitures{margin: left 0px;;
+.photos{    display:flex;
+            align-items: center;
+            max-width: 100%;
+            justify-content:center;
+            margin:0 auto;
+            padding: 0px;
+            border-radius: 10px;
+}
 
+.voitures{  max-width: 100%;
+            width: 48%;
+            height: auto;
+            margin: 5px;
+}
+
+.chouette{  max-width: 100%;
+            width: 48%;
+            height: auto;
+            margin: 5px;
+}
+
+.lien{      color: red;
+            font-size: 24px;
+            text-align: center;
+            text-decoration: underline red;
+}
+
+.photos2{   display:flex;
+            align-items: center;
+            max-width: 100%;
+            justify-content:center;
+            margin:0 auto;
+            padding: 0px;
+            border-radius: 10px;
+}
+
+.palais{    max-width: 100%;
+            width:48%;
+            height: auto;
+            margin: 5px;
+}
+
+.woman{     max-width: 100%;
+            width: 48%;
+            height: auto;
+            margin: 5px;
 }
 
