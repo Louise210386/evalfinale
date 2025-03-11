@@ -17,12 +17,12 @@ p{  font-family: Arial, Helvetica, sans-serif;
 }
 
 .photos{    display:flex;
+            flex:row;
             align-items: center;
             max-width: 100%;
             justify-content:center;
             margin:0 auto;
             padding: 0px;
-            border-radius: 10px;
 }
 
 .voitures{  max-width: 100%;
@@ -44,12 +44,13 @@ p{  font-family: Arial, Helvetica, sans-serif;
 }
 
 .photos2{   display:flex;
+            flex: row;
             align-items: center;
             max-width: 100%;
             justify-content:center;
             margin:0 auto;
             padding: 0px;
-            border-radius: 10px;
+         
 }
 
 .palais{    max-width: 100%;
